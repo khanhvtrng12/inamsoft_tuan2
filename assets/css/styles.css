@@ -12,15 +12,24 @@
 .font-size-16 {
   font-size: 1.1vw;
 }
+.font-size-18 {
+  font-size: 1.3vw;
+}
 .font-size-24 {
   font-size: 1.7vw;
+}
+.font-size-30{
+  font-size: 2.1vw;
 }
 .f-wd {
   width: 100% !important;
 }
+.w-99{
+  width: 99% !important;
+
+}
 .w-2 {
-  width: 20px;
-  margin-right: 14px;
+  width: 7%;
   padding: 8px 0;
 }
 .wd-22 {
@@ -57,7 +66,7 @@
   height: 30%;
 }
 .h-350 {
-  height: 350px;
+  height: 38vh;
 }
 .h-auto {
   height: auto !important;
@@ -140,6 +149,7 @@
 .dp-grid-2 {
   display: grid;
   grid-template-columns: 50% 50%;
+  column-gap: 2px;
 }
 /* construction */
 .header {
@@ -267,10 +277,16 @@
   top: 0;
   right: -18px;
 }
+.ico-container{
+  width: 33%;
+}
 footer {
   background-color: black;
   color: white;
   padding: 2% 4%;
+}
+#slider-wrapper{
+  display: none;
 }
 @media only screen and (max-width: 1500px) {
   .mg-top-500 {
@@ -300,18 +316,27 @@ footer {
   .mg1500-top-5{
     margin-top: 5%;
   }
+  #slider-wrapper{
+    display: block;
+  }
 }
 @media (max-width: 700px) {
   .dp-grid-2 {
     grid-template-columns: 100%;
     row-gap: 50px;
   } 
+  .h-350 {
+    height: 19vh;
+  }
 }
 /* size màn hình dưới 300px sẽ về 1 cột */
-@media (max-width: 300px) {
+@media (max-width: 350px) {
   .dp-grid-2 {
     grid-template-columns: 100%;
     row-gap: 50px;
   } 
+  .h-350 {
+    height: 13vh;
+  }
 }
 
