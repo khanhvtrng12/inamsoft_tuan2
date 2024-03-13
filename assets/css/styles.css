@@ -99,6 +99,9 @@
 .mg-center {
   margin: 0 15px;
 }
+.border-card{
+  border: 1px solid #e4e4e4;
+}
 .p-absolute {
   position: absolute;
 }
@@ -218,7 +221,7 @@
   margin-bottom: 13%;
 }
 .btn {
-  padding: 3.5% 7%;
+  padding: 3.3% 7%;
   border-radius: 50px;
   font-family: "Semi-bold", sans-serif;
   font-size: 14pt;
@@ -300,7 +303,7 @@ footer {
 }
 @media only screen and (max-width: 1500px) {
   .mg-top-500 {
-    margin-top: 100%;
+    margin-top: 121%;
     
   }
   .dp1500-grid{
