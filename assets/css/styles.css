@@ -145,7 +145,7 @@
   margin-bottom: 50px;
 }
 .trans-y-36 {
-  transform: translateY(-36px);
+  transform: translateY(-8%);
 }
 .color-ico-share {
   color: #0f66dc;
@@ -165,12 +165,11 @@
 }
 .dp-grid-50-25-25 {
   display: grid;
-  grid-template-columns: 39% 25% 25%;
+  grid-template-columns: 47% 25% 25%;
 }
 .dp-grid-2 {
   display: grid;
   grid-template-columns: 50% 50%;
-  column-gap: 2px;
 }
 /* construction */
 .header {
@@ -182,7 +181,7 @@
 .font-card-header {
   font-size: 5.7vw;
   color: #0f66dc;
-  margin-bottom: 29px;
+  margin-bottom: 6%;
 }
 .font-card-title {
   margin-top: 2%;
@@ -398,7 +397,7 @@ footer {
     row-gap: 50px;
   }
   .header {
-    height: 50rem !important;
+    height: calc(100vh / 2);
   }
   .h-78 {
     height: 83%;
@@ -422,6 +421,21 @@ footer {
     height: 40vh;
   }
 }
+.btn-pj{
+  width: 0 !important;
+  padding: 1.5% !important;
+  transform: translate(20%, 310%) !important;
+  margin: 0 !important;
+}
+.btn-pj-left {
+  width: 0 !important;
+  padding: 1.5% !important;
+  transform: translate(-40%, 310%) !important;
+  margin: 0 !important;
+}
+.btn-pj-left img{
+  transform: rotate(180deg);
+}
 /* size màn hình dưới 300px sẽ về 1 cột */
 @media (max-width: 480px) {
   .dp-grid-2 {
@@ -429,7 +443,7 @@ footer {
     row-gap: 50px;
   }
   .header {
-    height: 27rem !important;
+    height: calc(100vh / 3);
   }
   .h-78 {
     height: 67%;
